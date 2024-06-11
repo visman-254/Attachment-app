@@ -2,7 +2,7 @@
 <template>
     <div class="layout">
         <header class="menu">
-            <NuxtLink to="/" class="logo">KVDA</NuxtLink>
+            <NuxtLink to="/" class="logo"><img  class="logo-image" src="/assets/images/logo.png" alt="logo"></NuxtLink>
 
             <nav class="nav-bar">
                 <NuxtLink to="/login" class="nav-link">Login</NuxtLink>
@@ -39,6 +39,7 @@ import Footer from '~/components/Footer.vue';
     align-items: center;
     z-index: 1000;
     
+    
    
     
 }
@@ -47,6 +48,7 @@ import Footer from '~/components/Footer.vue';
     color: rgba(31, 17, 17, 0.664);
     text-decoration: none;
     font-weight: 700;
+    
     
 }
 .nav-bar a {
@@ -64,9 +66,14 @@ import Footer from '~/components/Footer.vue';
     flex-direction: column;
     min-height: 100vh;
     padding-top: 80px; 
+    
 }
 .content {
     flex: 1;
     padding-bottom: 60px; 
+}
+.logo-image{
+    border-radius: 50px;
+    
 }
 </style>

@@ -25,8 +25,10 @@
 </script>
 
 <style  scoped>
+
+
 .header{
-    margin-top: 0px;
+    margin-top: 100px;
 
 }
 
@@ -40,6 +42,7 @@
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     color: rgb(0, 0, 0);
+   margin-top: 10px;
     
     
     
@@ -50,6 +53,8 @@
     flex: 1;
     padding: 20px;
     backdrop-filter: blur(15px);
+    padding-top: 10px;
+    
   }
   footer {
     background-color: #1640ca;
