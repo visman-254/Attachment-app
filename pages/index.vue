@@ -42,7 +42,7 @@
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     color: rgb(0, 0, 0);
-   margin-top: 10px;
+   margin-top: 10.5px;
     
     
     
